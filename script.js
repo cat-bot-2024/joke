@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
         try {
             const response = await fetch('jokes.txt');
             const data = await response.text();
-            return data.split('|').map(joke => joke.trim());
+            return data.split('/').map(joke => joke.trim());
         } catch (error) {
             console.error('Error loading jokes:', error);
             return [];
