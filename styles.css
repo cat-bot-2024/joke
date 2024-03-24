@@ -5,7 +5,11 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    background-image: url('https://discord-collaborative-adventure.github.io/fr/background.png');
+    background-size: cover;
+    background-attachment: fixed; /* Ne pas fixer le fond pour les appareils mobiles */
 }
+
 
 .container {
     text-align: center;
